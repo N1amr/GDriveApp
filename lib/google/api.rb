@@ -12,7 +12,7 @@ module API
     CLIENT_SECRET = '21hjVr9EnStrQWK-xh6W-NP1'
 
     APPLICATION_NAME = 'Drive API Ruby Quickstart'
-    CLIENT_SECRETS_PATH = 'data/client_secret.json'
+    CLIENT_SECRETS_PATH = File.join(Rails.root,'lib/google/data/client_secret.json')
     CREDENTIALS_PATH = File.join(Dir.home, '.credentials',"drive-ruby-quickstart.json")
     SCOPE = 'https://www.googleapis.com/auth/drive'
 
