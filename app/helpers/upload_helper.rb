@@ -1,6 +1,5 @@
-# dir = File.join(Rails.root,'lib/google/')
-# require(dir+"/api.rb")
-# require(dir+"/files.rb")
+require File.join(Rails.root,'lib/google/files')
+require File.join(Rails.root,'lib/google/api')
 
 module UploadHelper
     def self.upload_file(upload)
